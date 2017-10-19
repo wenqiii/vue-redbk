@@ -18,6 +18,7 @@
 <script>
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.min.css'
+import { Indicator } from 'mint-ui'
 export default {
     data () {
         return {
@@ -34,9 +35,11 @@ export default {
     },
     methods: {
          selectPage (index) {
+             Indicator.open()
              this.chooseItem = index
              index = index + 1
              this.$router.push('/main2/page' + index)
+             setTimeout(() => Indicator.close(), 1000)
          }
     },
     components: {

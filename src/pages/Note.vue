@@ -6,7 +6,7 @@
           <div class="note_pic">
             <swiper :options="swiperOption" class="swiper-box">
               <swiper-slide class="swiper-item" v-for="(img,index) in note.imgs" :key="index">
-                <img :src="img" alt="">
+                <img v-lazy="img" alt="">
               </swiper-slide>
               <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
@@ -126,6 +126,11 @@ export default {
 }
 
 .swiper-item img {
+  width: 100%;
+  height: 12rem;
+}
+
+.swiper-item img[lazy=loading] {
   width: 100%;
   height: 12rem;
 }

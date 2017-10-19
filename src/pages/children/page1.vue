@@ -7,14 +7,14 @@
                         <li v-for="(item,index) in leftDisList" @click="selectedNote(item)" :key="index">
                             <div class="note_item">
                                 <a class="img">
-                                    <img :src="item.img" alt="">
+                                    <img v-lazy="item.img" alt="">
                                 </a>
                                 <div class="desc">
                                     <p>{{item.desc}}</p>
                                 </div>
                                 <div class="note">
                                     <a class="user">
-                                        <img :src="item.avator" alt="">
+                                        <img v-lazy="item.avator" alt="">
                                         <span>{{item.uname}}</span>
                                     </a>
                                     <a class="like">
@@ -31,14 +31,14 @@
                         <li v-for="(item,index) in rightDisList" @click="selectedNote(item)" :key="index">
                             <div class="note_item">
                                 <a class="img">
-                                    <img :src="item.img" alt="">
+                                    <img v-lazy="item.img" alt="">
                                 </a>
                                 <div class="desc">
                                     <p>{{item.desc}}</p>
                                 </div>
                                 <div class="note">
                                     <a class="user">
-                                        <img :src="item.avator" alt="">
+                                        <img v-lazy="item.avator" alt="">
                                         <span>{{item.uname}}</span>
                                     </a>
                                     <a class="like">
@@ -130,6 +130,8 @@ export default {
                     overflow hidden
                     img
                         width 100%
+                    img[lazy=loading]
+                        width 100%
                 .desc
                     width 100%
                     height 0.94rem
@@ -154,6 +156,11 @@ export default {
                         font-size 0.33rem
                         flex-direction row
                         img
+                            width 0.63rem
+                            height 0.63rem
+                            margin-right 0.13rem
+                            border-radius 50%
+                        img[lazy=loading]
                             width 0.63rem
                             height 0.63rem
                             margin-right 0.13rem

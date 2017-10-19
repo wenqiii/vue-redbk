@@ -5,7 +5,7 @@
           <li v-for="(item,index) in leftGoodsList" @click="choosedGoods(item)" :key="index">
             <div class="goods_item">
               <a class="img">
-                <img :src="item.img" alt="">
+                <img v-lazy="item.img" alt="">
               </a>
               <div class="desc">
                 <h3>{{item.title}}</h3>
@@ -29,7 +29,7 @@
           <li v-for="(item,index) in rightGoodsList" @click="choosedGoods(item)" :key="index">
             <div class="goods_item">
               <a class="img">
-                <img :src="item.img" alt="">
+                <img v-lazy="item.img" alt="">
               </a>
               <div class="desc">
                 <h3>{{item.title}}</h3>
@@ -109,6 +109,9 @@ export default {
 }
 .goods_item .img img {
   width: 100%;
+}
+.goods_item .img img[lazy-loading] {
+  width: 50%;
 }
 .goods_item .desc {
   width: 100%;

@@ -38,17 +38,6 @@
                                     <img src="../assets/delete.png" @click="deleteCartItem(p)" alt="">
                                 </div>
                             </div>
-                            <!-- <span class="ope">
-                                <span class="c-price">￥{{p.price}}</span>
-                                <span class="c-action">
-                                    <span class="reduce" @click="reduce">－</span>
-                                    <span class="number">{{quantity}}</span>
-                                    <span class="add" @click="add">＋</span>
-                                </span>
-                                <span class="c-delete">
-                                    <img src="../assets/delete.png" alt="">
-                                </span>
-                            </span> -->
                         </div>
                     </div>
                     <div class="footer">
@@ -163,7 +152,7 @@ export default {
       _initScroll() {
           this.cartScroll = new BScroll(this.$refs.cartWrapper, {
               click: true,
-              protoType: 3
+              scrollY: true
           })
       }
   },

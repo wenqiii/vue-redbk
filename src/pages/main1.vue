@@ -98,7 +98,8 @@ export default {
   methods: {
     _initScroll () {
       this.attentScroll = new BScroll(this.$refs.attWrapper, {
-        click: true
+        click: true,
+        scrollY: true
       });
     }
   },

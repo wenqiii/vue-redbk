@@ -71,7 +71,7 @@ export default {
     _initScroll () {
       this.noteScroll = new BScroll(this.$refs.noteWrapper, {
         click: true,
-        protoType: true
+        probeType: true
       })
     }
   },

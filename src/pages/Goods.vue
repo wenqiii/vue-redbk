@@ -229,8 +229,9 @@ export default {
         _initScroll () {
             this.goodsScroll = new BScroll(this.$refs.goodsWrapper, {
                 click: true,
-                protoType: 3
+                scrollY: true
             });
+            console.log(this.goodsScroll)
         }
     },
 	components: {
@@ -241,7 +242,6 @@ export default {
 		if (this.$store.state.isNav) {
         	this.$store.dispatch('isNav')
           }
-        // console.log(this.$store.state.goods.choosedgoods.color[0])
         this.$nextTick(() => {
             this._initScroll()
         })

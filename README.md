@@ -1,6 +1,20 @@
-# vue-redbk
+# [vue-redbk](https://wenqiii.github.io/vue-redbk/dist/index.html#/main3)
 
-> 小红书，发现全世界的好东西!种草种的好，美得比人早!
+> 小红书，发现全世界的好东西! 种草种的好，美得比人早!<br>
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m1.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m2.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m3.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/panel.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/search.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/note.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/goodsl.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/goods.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/action.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/addto.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/new.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/cart.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/account.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/success.png)
 
 ## 在线预览
 
@@ -27,6 +41,9 @@ Vue2.0全家桶 + axios + Vuex + Mint-Ui + Mock.js + Stylus
 > 3、笔记列表的自适应布局<br>
 > 4、良好的滚动手感<br>
 > 5、侧边栏的进入退出<br>
+#### 笔记页
+> 1、滑动查看笔记图片<br>
+> 2、笔记详情展示<br>
 #### 商品页
 > 1、滑动查看商品图片<br>
 > 2、商品详情展示<br>
@@ -40,13 +57,13 @@ Vue2.0全家桶 + axios + Vuex + Mint-Ui + Mock.js + Stylus
 > 2、评论页面的展示<br>
 > 3、笔记页面的完善<br>
 ## 项目总结（所踩过的坑！！）
->     历时半个多月的敲代码过程，终于完成了这款仿小红书的项目(开森~)。项目使用到vue-router进行路由切换，组件化开发让我更加具有组件化思维，vuex的状态管理模式，采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。项目所用到的假数据为小红书官网上的一些数据，以及小红书app上的截图(小红书没有PC端商品图片，只好默默抠图...)。作为一名vue的初学者，开发过程中难免踩过一些坑，一开始并没有用到mint-ui这个移动端布局框架，打算自己手写一个侧边栏，尝试许久，效果总不如人意，然后果断放弃,投入mintui的怀抱，嗯，效果蛮不错的。还有不想在路由中看到#,路由文件中我选择了history模式，结果打包上线时...你懂的，总之开发过程就是填坑过程，期间遇到的一些问题通过查看官网文档，浏览社区大牛的技术分享，最后总能自己解决的。
+>     历时半个多月的敲代码过程，终于完成了这款仿小红书的项目(有点小开森~)。项目使用到vue-router进行路由切换，组件化开发让我更加具有组件化思维，vuex的状态管理模式，采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。项目所用到的假数据为小红书官网上的一些数据，以及小红书app上的截图(小红书没有PC端商品图片，只好默默抠图...)。作为一名vue的初学者，开发过程中难免踩过一些坑，一开始并没有用到mint-ui这个移动端布局框架，打算自己手写一个侧边栏，尝试许久，效果总不如人意，然后果断放弃,投入mintui的怀抱，嗯，效果蛮不错的。还有不想在路由中看到#,路由文件中我选择了history模式，结果打包上线时...你懂的，总之开发过程就是填坑过程，期间遇到的一些问题通过查看官网文档，浏览社区大牛的技术分享，最后总能解决的。
 ## 最后！！！
-    走过路过的各位大佬们，如果觉得我的项目还不错的，就请动动你们的小手，留下一颗宝贵的星吧~
-    本人目前正在求职，对我感兴趣的可以通过以下方式联系我：
-    * 邮箱：1355174654@qq.com
-    * 微信号：isOKcwq
-    * 附上简历一张：https://www.lagou.com/resume/myresume.html
+    走过路过的各位大佬们，如果觉得我的项目还不错的，就请动动你们的小手，留下一颗宝贵的星吧~<br>
+    本人目前正在求职，对我感兴趣的可以通过以下方式联系我：<br>
+    * 邮箱：1355174654@qq.com<br>
+    * 微信号：isOKcwq<br>
+    * 附上简历一张：https://www.lagou.com/resume/myresume.html<br>
 ## Build Setup
 
 ``` bash

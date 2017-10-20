@@ -1,6 +1,20 @@
 # vue-redbk
 
-> 小红书，发现全世界的好东西!种草种的好，美得比人早!
+> 小红书，发现全世界的好东西! 种草种的好，美得比人早!<br>
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m1.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m2.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/m3.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/panel.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/search.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/note.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/goodsl.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/goods.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/action.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/addto.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/new.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/cart.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/account.png)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/success.png)
 
 ## 在线预览
 

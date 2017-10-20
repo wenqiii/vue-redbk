@@ -4,7 +4,7 @@
 
 ## 在线预览
 
->[点我有惊喜哦]（https://wenqiii.github.io/vue-redbk/dist/index.html#/main3）
+>[点我有惊喜哦](https://wenqiii.github.io/vue-redbk/dist/index.html#/main3)
 >（PC端建议在Chrome下开启调试模式，移动端直接在浏览器中打开就好）
 
 ## 项目描述
@@ -22,11 +22,11 @@ Vue2.0全家桶 + axios +　Vuex + Mint-Ui + Mock.js + Stylus
 * flexible.js 10rem解决移动端设备兼容
 ### 主要实现的功能
 #### 首页
->tabbar滑动切换和点击切换
->搜索框
->笔记列表的自适应布局
->良好的滚动手感
->侧边栏的进入退出
+> tabbar滑动切换和点击切换
+> 搜索框
+> 笔记列表的自适应布局
+> 良好的滚动手感
+> 侧边栏的进入退出
 #### 商品页
 >滑动查看商品图片
 >商品详情展示

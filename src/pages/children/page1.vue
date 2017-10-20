@@ -77,10 +77,9 @@ export default {
         },
         _initScroll () {
             this.pageScroll = new BScroll(this.$refs.disWrapper, {
-                            click: true,
-                            scrollY: true,
-                            probeType: 3
-            });
+                click: true
+            })
+            // console.log(this.pageScroll)
         }
     },
     created () {
@@ -92,15 +91,16 @@ export default {
         //             })
         //         })
         this.$store.dispatch('getDiscoverys',response.discoveryList)
-        this.$nextTick( () => {
+        setTimeout(() => {
             this._initScroll()
-        })
+        },2000)
     }
 }
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 .discovery
     width 100%
+    height 100%
     top 4.0rem
     bottom 0
     overflow hidden
@@ -108,6 +108,7 @@ export default {
     background #f5f8fa
     .dis-list
         width 100%
+        // min-height 150%
         display flex
         flex-direction row
         background #f5f8fa

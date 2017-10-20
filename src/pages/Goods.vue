@@ -353,7 +353,7 @@ export default {
                     justify-content space-between
                     .action
                         width 4.85rem
-                        font-size 0.39rem
+                        font-size 0.5rem
                         display flex
                         border 1px solid #f5f5f5
                         flex-direction row
@@ -471,11 +471,8 @@ export default {
         position fixed
         background #fff
         .gf_container
-            width 94%
             display flex
             font-size 0.33rem
-            margin-left auto
-            margin-right auto
             flex-direction row
             .icon
                 flex 3

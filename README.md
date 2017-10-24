@@ -2,8 +2,8 @@
 
 > 小红书，发现全世界的好东西! 种草种的好，美得比人早!<br>
 > ![](https://github.com/wenqiii/vue-redbk/blob/master/img/gif1.gif)
-> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/gif2.gif)
 > ![](https://github.com/wenqiii/vue-redbk/blob/master/img/gif3.gif)
+> ![](https://github.com/wenqiii/vue-redbk/blob/master/img/gif4.gif)
 
 ## 在线预览
 

@@ -33,6 +33,10 @@ export default new Router({
       component: main2,
       children: [
         {
+          path: '/',
+          component: page1
+        },
+        {
           path: 'page1',
           name: 'page1',
           component: page1

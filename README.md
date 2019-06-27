@@ -50,8 +50,8 @@ Vue2.0全家桶 + axios + Vuex + Mint-Ui + Mock.js + Stylus
 ## 最后！！！
     走过路过的各位大佬们，如果觉得我的项目还不错的，就请动动你们的小手，留下一颗宝贵的星吧~<br>
     本人目前正在求职，对我感兴趣的可以通过以下方式联系我：<br>
-    * 邮箱：1355174654@qq.com<br>
-    * 附上简历一张：https://www.lagou.com/resume/resume.html<br>
+    * 邮箱：xxx@qq.com<br>
+    * 附上简历一张：xxx.html<br>
 ## Build Setup
 
 ``` bash
